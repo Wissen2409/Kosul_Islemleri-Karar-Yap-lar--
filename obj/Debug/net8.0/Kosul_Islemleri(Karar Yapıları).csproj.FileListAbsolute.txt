@@ -1,0 +1,14 @@
+/Users/emrahelis/Desktop/Kosul_Islemleri(Karar Yapıları)/bin/Debug/net8.0/Kosul_Islemleri(Karar Yapıları)
+/Users/emrahelis/Desktop/Kosul_Islemleri(Karar Yapıları)/bin/Debug/net8.0/Kosul_Islemleri(Karar Yapıları).deps.json
+/Users/emrahelis/Desktop/Kosul_Islemleri(Karar Yapıları)/bin/Debug/net8.0/Kosul_Islemleri(Karar Yapıları).runtimeconfig.json
+/Users/emrahelis/Desktop/Kosul_Islemleri(Karar Yapıları)/bin/Debug/net8.0/Kosul_Islemleri(Karar Yapıları).dll
+/Users/emrahelis/Desktop/Kosul_Islemleri(Karar Yapıları)/bin/Debug/net8.0/Kosul_Islemleri(Karar Yapıları).pdb
+/Users/emrahelis/Desktop/Kosul_Islemleri(Karar Yapıları)/obj/Debug/net8.0/Kosul_Islemleri(Karar Yapıları).GeneratedMSBuildEditorConfig.editorconfig
+/Users/emrahelis/Desktop/Kosul_Islemleri(Karar Yapıları)/obj/Debug/net8.0/Kosul_Islemleri(Karar Yapıları).AssemblyInfoInputs.cache
+/Users/emrahelis/Desktop/Kosul_Islemleri(Karar Yapıları)/obj/Debug/net8.0/Kosul_Islemleri(Karar Yapıları).AssemblyInfo.cs
+/Users/emrahelis/Desktop/Kosul_Islemleri(Karar Yapıları)/obj/Debug/net8.0/Kosul_Islemleri(Karar Yapıları).csproj.CoreCompileInputs.cache
+/Users/emrahelis/Desktop/Kosul_Islemleri(Karar Yapıları)/obj/Debug/net8.0/Kosul_Islemleri(Karar Yapıları).dll
+/Users/emrahelis/Desktop/Kosul_Islemleri(Karar Yapıları)/obj/Debug/net8.0/refint/Kosul_Islemleri(Karar Yapıları).dll
+/Users/emrahelis/Desktop/Kosul_Islemleri(Karar Yapıları)/obj/Debug/net8.0/Kosul_Islemleri(Karar Yapıları).pdb
+/Users/emrahelis/Desktop/Kosul_Islemleri(Karar Yapıları)/obj/Debug/net8.0/Kosul_Islemleri(Karar Yapıları).genruntimeconfig.cache
+/Users/emrahelis/Desktop/Kosul_Islemleri(Karar Yapıları)/obj/Debug/net8.0/ref/Kosul_Islemleri(Karar Yapıları).dll
