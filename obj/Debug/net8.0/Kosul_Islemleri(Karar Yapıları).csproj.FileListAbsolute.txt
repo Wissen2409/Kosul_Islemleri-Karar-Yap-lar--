@@ -12,3 +12,4 @@
 /Users/emrahelis/Desktop/Kosul_Islemleri(Karar Yapıları)/obj/Debug/net8.0/Kosul_Islemleri(Karar Yapıları).pdb
 /Users/emrahelis/Desktop/Kosul_Islemleri(Karar Yapıları)/obj/Debug/net8.0/Kosul_Islemleri(Karar Yapıları).genruntimeconfig.cache
 /Users/emrahelis/Desktop/Kosul_Islemleri(Karar Yapıları)/obj/Debug/net8.0/ref/Kosul_Islemleri(Karar Yapıları).dll
+/Users/emrahelis/Desktop/Kosul_Islemleri(Karar Yapıları)/obj/Debug/net8.0/Kosul_Islemleri(Karar Yapıları).sourcelink.json
