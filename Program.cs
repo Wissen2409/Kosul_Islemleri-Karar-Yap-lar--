@@ -280,14 +280,14 @@ else{
 // burada ek bir kontrol daha yapalım
 // eğer aldığınız bölen sıfır ise, uyarı mesajı verelim/ bölen sıfır olamaz
 
-Console.WriteLine("Hesap makinasına hoşgeldiniz");
+/*Console.WriteLine("Hesap makinasına hoşgeldiniz");
 Console.WriteLine("1 sayıyı giriniz");
 int birinciSayi = int.Parse(Console.ReadLine());
 Console.WriteLine("2. sayıyı giriniz");
 int ikinciSayi = int.Parse(Console.ReadLine());
 Console.WriteLine("İşlem tipini giriniz(+,-,/,*)");
 string islemTipi =Console.ReadLine();
-
+*/
 /* 1. case
 if(islemTipi=="/" && ikinciSayi!=0){
     // programı devam ettir
@@ -296,7 +296,8 @@ else{
     // bölen sıfır olamaz
 }
 */
-if(islemTipi=="+"){
+// 2. case
+/*if(islemTipi=="+"){
     Console.WriteLine(birinciSayi+ikinciSayi);
 }
 else if(islemTipi=="-"){
@@ -313,4 +314,77 @@ else if(islemTipi=="/"){
         // yukarıda 0 değilse, kontrolü var, değer 0'ı ise burası çalışacak
         Console.WriteLine("Bölen sıfır olamaz");
     }
+}
+// if veya else if'ler else olmadan çalışabilir.
+*/
+
+// Üçgenin alanı ve çevresi ve dairenin alanı ve çevresi hesaplama aracı yapacağız.
+
+// Uygulama çalıştığında, öncelikle programın yapabileceği özellikler ekrana çıksın
+// Örnek : Hesaplama için öncelikle şeklin adını sorsun
+// değer olarak üçgen yada daire giriniz
+
+// bu değeri girdikten sonra, alan yada çevre hesabı yapmak istediğinizi sorsun
+// değer olarak alan yada çevre girin
+// daha sonra bu hesaplamalar için gerekli olan parametreleri kullanıcıdan istesin
+
+// daha sonra hesaplama yapıp ekrana sonucu göstersin
+
+Console.WriteLine("Hesaplama aracına hoşgeldin");
+Console.WriteLine("Hesaplama aracımız üçgen ve daire için çalışmaktadır");
+Console.WriteLine("Lütfen ücgen yada daire yazınız");
+
+string sekil = Console.ReadLine();
+if(sekil.ToLower()=="ucgen"){
+    Console.WriteLine("Alan hesaplama Alan, Çevre hesaplamak için çevre yazınız");
+    string hesapText = Console.ReadLine();
+    if(hesapText.ToLower()=="alan"){
+
+        // taban* yukseklik/2
+        Console.WriteLine("Taban değerini giriniz");
+        int taban = int.Parse(Console.ReadLine());
+        Console.WriteLine("Yükseklik değeri giriniz");
+        int yukseklik = int.Parse(Console.ReadLine());
+        // hesaplama
+        decimal result = taban*yukseklik/2;
+        Console.WriteLine("Taban değeri {0} yükseklik değeri {1} olan üçgenin alanı : {2}",taban,yukseklik,result);
+    }
+    else if(hesapText.ToLower()=="cevre"){
+        Console.WriteLine("1. kenar uzunluğu");
+        int birinciKenar = int.Parse(Console.ReadLine());
+        Console.WriteLine("2. kenar");
+        int ikinciKenar = int.Parse(Console.ReadLine());
+        Console.WriteLine("3. kenar");
+        int ucuncuKenar = int.Parse(Console.ReadLine());
+        int result = birinciKenar+ikinciKenar+ucuncuKenar;
+        Console.WriteLine("Üçgenin çevre uzunluğu : {0}",result);
+    }
+    else{
+        Console.WriteLine("İşlem tipi geçersizdir");
+    }
+}
+else if(sekil.ToLower()=="daire"){
+
+Console.WriteLine("Alan hesaplamak için Alan, Çevre hesaplamak için Cevre yazınız");
+string hesapText = Console.ReadLine();
+if(hesapText.ToLower()=="alan"){
+
+    Console.WriteLine("Alan hesabı için, yarı çap değerini giriniz");
+    int yariCap = int.Parse(Console.ReadLine());
+    Console.WriteLine("Yarı çapı : {0} olan dairenin alanı : {1}",yariCap,Math.PI*yariCap*yariCap);
+}
+else if(hesapText.ToLower()=="cevre"){
+
+Console.WriteLine("Çevre hesabı için yarı çap değerini giriniz");
+int yariCap = int.Parse(Console.ReadLine());
+Console.WriteLine("Yarı Çapı {0} olan dairenin çevresi {1}",yariCap,Math.PI*yariCap*2);
+}
+else
+{
+    Console.WriteLine("Geçersiz işlem tipi");
+}
+
+}
+else{
+    Console.WriteLine("Geçersiz şekil");
 }
