@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kosul_Islemleri(Karar Yapıları)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3782cdfcd4365d074cf72b263a156794b5635b3d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a2c5cb66f116f6df046f33d01163bd4431d3d0b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kosul_Islemleri(Karar Yapıları)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kosul_Islemleri(Karar Yapıları)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
