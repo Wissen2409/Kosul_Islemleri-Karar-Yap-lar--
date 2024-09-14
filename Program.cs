@@ -168,7 +168,6 @@ else{
 }*/
 
 
-// İf Blokları içerine başka if blokları ve else bloklarıda yazabiliriz.
 // İç İçe İf
 // syntax
 /*
@@ -195,7 +194,7 @@ else
 
 
 // Örnek :
-
+/*
 Console.WriteLine("Lütfen not giriniz");
 int not = int.Parse(Console.ReadLine());
 if(not<50)
@@ -203,11 +202,11 @@ if(not<50)
 
     if(not<25){
         Console.WriteLine("Sınıfta kaldın");
+
     }
     else{
         Console.WriteLine("Düşük seviyeli geçtin");
     }
-
 }
 else{
     if(not<75){
@@ -215,5 +214,103 @@ else{
     }
     else{
         Console.WriteLine("Çok iyi seviye ile geçtin");
+    }
+}
+*/
+
+
+// IF - Else If- Else Blokları(Çoklu case kontrolü)
+
+// If ve Else kullanımında, derleyici iki tek bir kontrol yapıyordu.
+// If bloğunda kapılan kontrol ıf bloğu şartına uyuyorsa, if çalışıyordu,
+// uymuyorsa, else çalışıyordu.
+
+// Peki, eğer birden fazla koşum varsa ve ben bu koşulları, her birini if gibi değerlendirmek istiyorsam
+
+/*
+if(Koşul)
+{
+}
+else if(koşul)
+{
+}
+else if(koşul)
+{
+}
+else
+{
+
+}
+*/
+
+// if -else if-else konusunda bir örnek
+
+//Console.WriteLine("Not giriniz");
+//int not = int.Parse(Console.ReadLine());
+
+// not 0-24 arasındaysa, 1
+// not 25-44 arasındaysa 2
+// not 45-60 arasındaysa 3
+// not 59-84 arasındaysa 4
+// not 85 ve 100 arasındaysa 5
+
+/*
+if(not>0 && not<24){
+    Console.WriteLine("1 aldın");
+}
+else if(not>=25 && not<=44){
+    Console.WriteLine("2 aldın");
+}
+else if(not>45 && not<=60){
+    Console.WriteLine("3 aldın ");
+}
+else if (not>60 && not<84){
+    Console.WriteLine("4 aldın");
+}
+else if(not>85 && not<100){
+    Console.WriteLine("5 aldın");
+}
+else{
+    Console.WriteLine("Lütfen geçerli bir not giriniz");
+}
+*/
+// Bir basit hesap makinası yapalım
+// Ekradan iki adet sayı alıp, birde işlem tipi alıp (+,-,/,*) işlem tipine hesap yapan
+// kod bloğunu yazalım
+// burada ek bir kontrol daha yapalım
+// eğer aldığınız bölen sıfır ise, uyarı mesajı verelim/ bölen sıfır olamaz
+
+Console.WriteLine("Hesap makinasına hoşgeldiniz");
+Console.WriteLine("1 sayıyı giriniz");
+int birinciSayi = int.Parse(Console.ReadLine());
+Console.WriteLine("2. sayıyı giriniz");
+int ikinciSayi = int.Parse(Console.ReadLine());
+Console.WriteLine("İşlem tipini giriniz(+,-,/,*)");
+string islemTipi =Console.ReadLine();
+
+/* 1. case
+if(islemTipi=="/" && ikinciSayi!=0){
+    // programı devam ettir
+}
+else{
+    // bölen sıfır olamaz
+}
+*/
+if(islemTipi=="+"){
+    Console.WriteLine(birinciSayi+ikinciSayi);
+}
+else if(islemTipi=="-"){
+    Console.WriteLine(birinciSayi-ikinciSayi);
+}
+else if(islemTipi=="*"){
+    Console.WriteLine(birinciSayi*ikinciSayi);   
+}
+else if(islemTipi=="/"){
+    if(ikinciSayi!=0){
+        Console.WriteLine(birinciSayi/ikinciSayi);
+    }
+    else{
+        // yukarıda 0 değilse, kontrolü var, değer 0'ı ise burası çalışacak
+        Console.WriteLine("Bölen sıfır olamaz");
     }
 }
